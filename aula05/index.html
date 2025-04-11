@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+
+        header,ul,nav{
+            height: 5vh;
+        }
+
+        body{
+            font-family: "Montserrat", sans-serif;
+            background-color:burlywood;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul{
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly; /* Eixo principal*/
+            align-items: center; /* Eixo transversal*/
+            padding: 0;
+            margin: 0;
+            background-color: black;
+        }
+
+        a{
+            color: white;
+            text-decoration: None;
+            display: block;
+            transition: 0.5s; /*Tempo de transição*/
+        }
+
+        a:hover{
+            text-decoration: 1px underline white;
+            transform: scale(1.2);  /*Escala de transição*/ 
+        }
+ 
+         /* li{
+            transition: 0.5s; Tempo de transição
+        }
+
+        li:hover{
+            transform: scale(1.2); Escala de transição 
+        } */
+
+    </style>
+
+
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="">Sobre a empresa </a></li>
+                <li><a href="">Site oficial</a></li>
+                <li><a href="">Dúvidas frequentes</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Login</h1>
+
+        <form action="">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+
+            <button>Enviar</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        Feito com &hearts; por <a href="">GitHub</a>
+    </footer>
+
+
+</body>
+</html>
