@@ -1,0 +1,90 @@
+header,ul,nav{
+    height: 5vh;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color:burlywood;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* Eixo principal*/
+    align-items: center; /* Eixo transversal*/
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: None;
+    display: block;
+    transition: 0.5s; /*Tempo de transição*/
+}
+
+a:hover{
+    text-decoration: 1px underline white;
+    transform: scale(1.2);  /*Escala de transição*/ 
+}
+
+ /* li{
+    transition: 0.5s; Tempo de transição
+}
+
+li:hover{
+    transform: scale(1.2); Escala de transição 
+} */
+
+h1{
+    text-align: center;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 40%;
+    margin: 0 auto; /*Dois valores: primeiro para top e bottom, segundo para left e right*/
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button{
+        margin-top: auto;
+        margin-bottom: 0.5rem;
+        width: 17%;
+        height: 4vh;
+        border-radius: 1rem;
+        font-family: "National Park", sans-serif;
+        font-size: 1.2rem;
+        background-color:cornsilk;
+    }
+
+    #label-email{
+        margin-top: 4rem;
+    }
+
+    label{
+        margin-top: auto;
+    }
+    
+
+    
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+
