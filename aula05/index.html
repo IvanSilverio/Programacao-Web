@@ -9,53 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <style>
-
-        header,ul,nav{
-            height: 5vh;
-        }
-
-        body{
-            font-family: "Montserrat", sans-serif;
-            background-color:burlywood;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        ul{
-            border: 1px solid black;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly; /* Eixo principal*/
-            align-items: center; /* Eixo transversal*/
-            padding: 0;
-            margin: 0;
-            background-color: black;
-        }
-
-        a{
-            color: white;
-            text-decoration: None;
-            display: block;
-            transition: 0.5s; /*Tempo de transição*/
-        }
-
-        a:hover{
-            text-decoration: 1px underline white;
-            transform: scale(1.2);  /*Escala de transição*/ 
-        }
- 
-         /* li{
-            transition: 0.5s; Tempo de transição
-        }
-
-        li:hover{
-            transform: scale(1.2); Escala de transição 
-        } */
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -78,7 +32,7 @@
 
         <form action="">
 
-            <label for="email">Email</label>
+            <label  for="email" id="label-email">Email</label>
             <input type="email" name="email" id="email">
 
             <label for="senha">Senha</label>
