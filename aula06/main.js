@@ -7,11 +7,11 @@ console.log(x, cidade);
 console.log(typeof(x));
 console.log(typeof(cidade));
 
-let x = 5
+let y = 5
 let z = 5
 let k = '5'
 
-if (x=== k){
+if (y === k){
     console.log ('São iguais!')
 }
 
@@ -19,6 +19,6 @@ else{
     console.log ('nem')
 }
 
-if (x ===z){
+if (y === z){
     console.log ('São iguais')
 }
