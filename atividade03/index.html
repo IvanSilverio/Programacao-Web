@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Marcador de Pontuação Magic the Gathering</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <img src="https://static1.gamerantimages.com/wordpress/wp-content/uploads/2020/02/magic-the-gathering-logo.jpg" alt="">
+        
+            <div class="conteudo-box">
+                <div class="contagem">
+                    <p id="contagem1">0</p>
+                    <p>a</p>
+                    <p id="contagem2">0</p>
+                </div>
+        
+                <div class="seleciona_pont">
+
+                    <label for="pontuacao">Escolha a pontuação vitoriosa</label>
+                    <select name="pontuacao" id="pontuacao">
+                        
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+        
+                <p>Use os botões para marcar a pontuação vitoriosa</p>
+            </div>
+
+                <div class="botoes">
+                    <button id="jogador1">Jogador 1</button>
+                    <button id="jogador2">Jogador 2</button>
+                    <button id="reset">Reiniciar</button>
+                </div>
+            
+        </div>
+        
+    </main>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
