@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Jogo da adivinhação</h1>
+    </header>
+
+    <main>
+
+        <img src="https://printpedagogico.com.br/wp-content/uploads/2021/08/ADIVINHAS.jpg" alt="">
+
+        <section>
+            <h2>Área do Pensamento</h2>
+            <p>Olá! Chat-Jequiti. Irei pensar em um número entre 'início e 'fim'. </p>
+            <p>Após digitar os números clique em 'Pensar'.</p>
+
+            <label for="inicio"> Início</label>
+            <input type="number" name="inicio" id="inicio">
+
+            <label for="fim"> Fim</label>
+            <input type="number" name="fim" id="fim">
+
+            <button id="pensar">Pensar</button>
+
+            <h2 id="segundo">Área da Adivinhação</h2>
+            <label for="adivinhado">Qual número estou pensando?</label>
+            <input type="number" name="adivinhado" id="adivinhado">
+
+            <button id="adivinhar">Adivinhar</button>
+        </section>
+
+    </main>
+
+    <p id="resp"></p>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
