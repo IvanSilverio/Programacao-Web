@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    min-height: 108vh;
+    min-height: 100vh;
 }
 
 header{
@@ -72,7 +72,7 @@ main{
             p{
                 margin-left: 1rem;
                 margin: 0;
-                width: 30%;
+
             }
 
             button{
@@ -80,22 +80,6 @@ main{
                 border-radius: 1rem;
                 margin:auto;
                 color: white;
-            }
-            .sum{
-                margin: 1rem;
-                border-radius: 1rem;
-                min-height: 3rem;
-                min-width: 3rem;
-                background-color: green;
-                color: antiquewhite;
-            }
-            .sub{
-                margin: 1rem;
-                border-radius: 1rem;
-                min-width: 3rem;
-                min-height: 3rem;
-                background-color: rgba(169, 3, 3, 0.666);
-                color: antiquewhite;
             }
         }
     }
