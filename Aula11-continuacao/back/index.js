@@ -15,7 +15,7 @@ app.get('/disciplinas', (req, res) => {
     // O Form HTML envia dados utilizando query parameters
     const {sigla} = req.query;
 
-    // Buscar mo banco a sigla
+    // Buscar no banco a sigla
     const disciplinasString = fs.readFileSync(dbPath, {encoding : 'utf8'});
 
     const disciplinas = JSON.parse(disciplinasString);
