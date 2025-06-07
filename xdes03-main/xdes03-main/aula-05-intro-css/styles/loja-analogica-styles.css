@@ -1,0 +1,25 @@
+.cards{
+    border: 1px solid black;
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+}
+
+.cards-area{
+    border: 1px solid black;
+    width: 80%;
+    height: 50vh;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.img-produto{
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}

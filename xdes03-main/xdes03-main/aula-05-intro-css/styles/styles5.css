@@ -1,0 +1,17 @@
+.caixa{
+    border: 1px solid black;
+}
+
+.cinq-pr{
+   width: 50%;
+}
+
+.cinq-px{
+    width: 50px;
+}
+
+.pai {
+    width: 100px;
+    border: 1px solid black;
+    padding-right: 15px;
+}

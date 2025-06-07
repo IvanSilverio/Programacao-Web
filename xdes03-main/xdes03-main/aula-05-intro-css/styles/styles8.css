@@ -1,0 +1,19 @@
+nav {
+    position: sticky;
+    top: 2px;
+    background-color: #c2c4d2;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    position: relative;
+    list-style: none;
+    text-align: center;
+
+}
+li{
+    display: inline-block;
+}

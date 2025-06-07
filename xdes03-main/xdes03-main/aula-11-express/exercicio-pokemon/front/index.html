@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon</title>
+</head>
+<body>
+    <main>
+        <h1>Sistema Pokémon de Qualidade</h1>
+        <form action="http://localhost:3000/pokemon" method="get">
+            <h2>Buscando Pokémons</h2>
+            <label for="poke-name">Poke-Name</label>
+            <input type="text" name="pokename" id="pokename" placeholder="Nome do Pokémon">
+            <button>Buscar</button>
+        </form>
+
+        <form action="http://localhost:3000/pokemon" method="post">
+            <h2>Adicionando Pokémons</h2>
+            <label for="pokename">Poke-Name</label>
+            <input type="text" name="pokename" id="pokename" placeholder="Nome do Pokémon">
+            <label for="pokeid">Poke Id</label>
+            <input type="number" name="pokeid" id="pokeid" placeholder="ID do Pokémon">
+            <label for="pokeimg">Link com Imagem do Pokémon</label>
+            <input type="text" name="pokeimg" id="pokeimg" placeholder="link com url da imagem">
+            <button>Adicionar</button>
+        </form>
+
+    </main>
+</body>
+</html>

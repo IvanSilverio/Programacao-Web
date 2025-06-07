@@ -1,0 +1,41 @@
+main{
+    font-family: 'Comme', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.area-do-jogo{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0 auto;
+}
+
+.area-do-jogo-entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+}
+
+.area-saida{
+    text-align: center;
+    font-size: 2em;
+}
+
+figure{
+    margin: 5%;
+}
+
+img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+input{
+    width: 20%;
+}

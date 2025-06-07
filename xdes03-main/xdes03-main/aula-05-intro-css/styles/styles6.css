@@ -1,0 +1,21 @@
+.um-em{
+    font-size: 1em;
+}
+
+.um-rem{
+    font-size: 1rem;
+}
+
+
+.dois-em{
+    font-size: 2em;
+}
+
+.dois-rem{
+    font-size: 2rem;
+}
+
+.caixa{
+    border: 1px solid black;
+    font-size: 2em;
+}
