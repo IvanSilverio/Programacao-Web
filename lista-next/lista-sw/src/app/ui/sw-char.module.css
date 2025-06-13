@@ -1,0 +1,16 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .imagem{
+        max-width: 450px; 
+        width: 100%;      
+        height: auto;    
+    }
+}
+
+.descricao{
+    max-width: 50rem;
+    margin-top  : 2rem;
+}

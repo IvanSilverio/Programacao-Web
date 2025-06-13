@@ -2,6 +2,8 @@
 import axios from 'axios'
 import SwChar, { ISwCharProp } from './sw-char';
 import { useState } from 'react';
+import styles from './sw-search-char.module.css';
+
 
 export default function SWSearch(){
 
@@ -40,9 +42,9 @@ export default function SWSearch(){
     }
 
     return(
-        <section>
+        <section className={styles.busca}>
             <form action={buscaPersonagem}>
-                <input type="text" name="sw-name" id="sw-name" />
+                <input type="text" name="sw-name" id="sw-name" className={styles.inputBusca}/>
                 <label htmlFor="sw-name" aria-hidden = 'true' hidden> Nome do Personagem </label>
                 <button>Buscar</button>
             </form>
