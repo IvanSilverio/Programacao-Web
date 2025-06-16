@@ -53,11 +53,11 @@ export default function SWSearch(){
     }
 
     return(
-        <section className={styles.busca}>
+        <section className={styles.Containerbusca}>
             <form action={buscaPersonagem}>
                     <input type="text" name="sw-name" id="sw-name" className={styles.inputBusca}/>
                     <label htmlFor="sw-name" aria-hidden = 'true' hidden> Nome do Personagem </label>
-                    <button className={styles.botao}> Buscar</button>
+                    <button className={styles.button}> Buscar</button>
             </form>
 
             {CanDisplay && SwCharState}

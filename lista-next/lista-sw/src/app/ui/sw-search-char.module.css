@@ -1,4 +1,4 @@
-.busca {
+.Containerbusca {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@
   border: 1px solid #ccc;
 }
 
-.botao {
+.button {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #007bff;
@@ -24,7 +24,7 @@
 
 }
 
-.botao:hover{
+.button:hover{
   background-color: #2c8ef6;
 }
 
